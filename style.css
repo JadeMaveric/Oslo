@@ -56,6 +56,10 @@ img {
     font-family: 'Cormorant Garamond', serif;
     color: #f1f1f1;
     font-size: 22px;
+    background: url('img/41750_1_miscellaneous_digital_art_simple_dark_shapes.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed
 }
 #why{
     text-align: center !important;
