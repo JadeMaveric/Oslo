@@ -104,6 +104,8 @@ img {
     border: 1px solid #CBDFD6;
     cursor: pointer;
     color: #000;
+    right:2%;		
+    border: 1px solid;
 }
 #vision{
     display: flex;
