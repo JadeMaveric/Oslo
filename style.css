@@ -82,7 +82,32 @@ img {
 .benefits{
       padding: 5%;
       margin-right: 0%;
-      background-color: aliceblue;
+      background: url('img/pexels-photo-38132.jpeg');
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+}
+
+#benefits-heading{
+    font-family: 'Advent Pro 600', serif;
+    letter-spacing: 2px;
+    font-size: 165%;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 2%;
+    text-align: center;
+    color: #0f0f0ece;
+    text-transform: uppercase;
+}
+
+#benefits-heading::after{
+    content:'';
+    height: 3px;
+    width: 25%;
+    background:#312827c4;
+    position: absolute;
+    left:calc(45% - 11%);
+    bottom: 2%;
 }
 @import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo');
 .butn {
