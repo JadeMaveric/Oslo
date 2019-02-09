@@ -29,14 +29,33 @@
     font-size: 250%;
 }
 
-.imp {
+.fa-chevron-arrow-right::before{
+    content: "\f124";
+}
+
+.imp-welc{
     position: absolute;
     top: 25%;
     width: 90%;
     padding-left: 5%;
     text-align: center;
 }
-.princ{
+.imp{
+    position: absolute;
+    top: 25%;
+    width: 90%;
+    padding-left: 5%;
+    text-align: center;
+}
+.imp-butn{
+    position: absolute;
+    top: 25%;
+    width: 90%;
+    padding-left: 5%;
+    text-align: center;
+    
+    margin-top:calc(45% - 11%);
+}.princ{
     padding: 5%
 }
 
