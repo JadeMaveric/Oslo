@@ -3,6 +3,24 @@
     padding: 0%;
 }
 
+.page-container{ /* possible fix for background-attachment: fixed; */
+    -ms-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+#particles-js{
+    /*background-color: #0f4679;*/
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    height: 100vh;
+    margin-top: -7%;
+    margin-bottom: 0%;
+    padding: 0% 0% 8% 0%;
+}
+
+
 #type {
     display: flex;
     flex-wrap: wrap;
