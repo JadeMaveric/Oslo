@@ -99,7 +99,7 @@ img {
     background: url('img/41750_1_miscellaneous_digital_art_simple_dark_shapes.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed
+    background-attachment: fixed;
 }
 #why{
     text-align: center !important;
