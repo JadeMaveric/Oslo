@@ -304,7 +304,7 @@ img {
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: center;
-    flex:2;
+    flex:1;
     color: black;
     text-align: justify;
     font-family: 'Poiret One', sans-serif;
