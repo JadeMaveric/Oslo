@@ -15,6 +15,7 @@
 
 .jumbotron {
     height: 87vh;
+   
     background-size: cover;
     background: url('/img/ieee-right-hand-logo2\ -\ Copy.png');
     background-position: center;
@@ -28,14 +29,33 @@
     font-size: 250%;
 }
 
-.imp {
+.fa-chevron-arrow-right::before{
+    content: "\f124";
+}
+
+.imp-welc{
     position: absolute;
     top: 25%;
     width: 90%;
     padding-left: 5%;
     text-align: center;
 }
-.princ{
+.imp{
+    position: absolute;
+    top: 25%;
+    width: 90%;
+    padding-left: 5%;
+    text-align: center;
+}
+.imp-butn{
+    position: absolute;
+    top: 25%;
+    width: 90%;
+    padding-left: 5%;
+    text-align: center;
+    
+    margin-top:calc(45% - 11%);
+}.princ{
     padding: 5%
 }
 
@@ -55,6 +75,10 @@ img {
     font-family: 'Cormorant Garamond', serif;
     color: #f1f1f1;
     font-size: 22px;
+    background: url('img/41750_1_miscellaneous_digital_art_simple_dark_shapes.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed
 }
 #why{
     text-align: center !important;
@@ -81,7 +105,32 @@ img {
 .benefits{
       padding: 5%;
       margin-right: 0%;
-      background-color: aliceblue;
+      background: url('img/pexels-photo-38132.jpeg');
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+}
+
+#benefits-heading{
+    font-family: 'Advent Pro 600', serif;
+    letter-spacing: 2px;
+    font-size: 165%;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 2%;
+    text-align: center;
+    color: #0f0f0ece;
+    text-transform: uppercase;
+}
+
+#benefits-heading::after{
+    content:'';
+    height: 3px;
+    width: 25%;
+    background:#312827c4;
+    position: absolute;
+    left:calc(45% - 11%);
+    bottom: 2%;
 }
 @import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo');
 .butn {
@@ -103,6 +152,8 @@ img {
     border: 1px solid #CBDFD6;
     cursor: pointer;
     color: #000;
+    right:2%;		
+    border: 1px solid;
 }
 #vision{
     display: flex;
@@ -120,6 +171,10 @@ img {
 
 #mission{
     background: #fdfbfb !important;
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     display: flex;
     flex-direction: row;
     align-items: flex-start;
