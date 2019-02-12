@@ -1,6 +1,7 @@
 *{ 
     margin: 0%;
     padding: 0%;
+    
 }
 
 .page-container{ /* possible fix for background-attachment: fixed; */
@@ -18,8 +19,7 @@
     margin-top: -7%;
     margin-bottom: 0%;
     padding: 0% 0% 8% 0%;
-}
-
+} 
 
 #type {
     display: flex;
@@ -32,7 +32,7 @@
     }
 
 .jumbotron {
-    height: 87vh;
+    height: 86vh;
     border-radius: 0%;
     z-index: 50;
     background-size: cover;
@@ -40,8 +40,9 @@
     background-position: center;
     background-repeat: no-repeat; 
     background-attachment: fixed;
-    margin-bottom: 0%;
 }
+
+
 
 #typed {
     font-family: 'Old Standard TT', serif;
@@ -75,7 +76,6 @@
     
     margin-top:calc(45% - 11%);
 }
-
 .princ{
     padding: 5%
 }
@@ -153,6 +153,110 @@ img {
     left:calc(45% - 11%);
     bottom: 2%;
 }
+
+.box{
+    display: inline-block !important;
+    padding: 10px 0 !important;
+    margin-right: 25px !important;
+    color: #163838c9;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.box:hover{
+    text-decoration: none;
+    padding: 2px;
+    bottom: 25px;  
+    transition: all 0.5s;
+    color: #163838c9;
+}
+
+/* .box-1:hover{
+    text-decoration: none;
+    padding: 2px;
+    bottom: 25px;  
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+.box-2:hover{
+    text-decoration: none;
+    padding: 2px;
+    bottom: 25px;  
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+.box-3:hover{
+    text-decoration: none;
+    padding: 2px;
+    bottom: 25px;  
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+.box-4:hover{
+    text-decoration: none;
+    padding: 2px;
+    bottom: 25px;  
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+.box-5:hover{
+    text-decoration: none;
+    padding: 2px;
+    bottom: 25px;  
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+.box-6:hover{
+    text-decoration: none;
+    padding: 2px;
+    bottom: 25px;  
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+.box-7:hover{
+    text-decoration: none;
+    padding: 2px;
+    bottom: 25px;  
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+.box-8:hover{
+    text-decoration: none;
+    padding: 2px;
+    bottom: 25px;  
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+
+.box-9:hover{
+    text-decoration: none;
+    padding: 2px;
+    bottom: 25px;  
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+.box-10:hover{
+    text-decoration: none;
+    padding: 2px;
+    bottom: 25px;  
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+.box-11:hover{
+    text-decoration: none;
+    padding: 2px;
+    bottom: 25px;  
+    letter-spacing: 2px;
+    transition: all 0.3s;
+}
+
+.box-12:hover{
+    text-decoration: none;
+    padding: 2px;
+    bottom: 25px;  
+    letter-spacing: 1px;
+    transition: all 0.3s;
+} */
 @import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo');
 .butn {
     font-family: 'Nanum Myeongjo', serif;
@@ -173,9 +277,10 @@ img {
     border: 1px solid #CBDFD6;
     cursor: pointer;
     color: #000;
-    right:2%;		
+    right:2%;
     border: 1px solid;
 }
+
 #vision{
     display: flex;
     align-items: flex-start;
@@ -194,7 +299,6 @@ img {
     background: #abbaab;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -205,10 +309,40 @@ img {
     text-align: justify;
     font-family: 'Poiret One', sans-serif;
     font-size: 165%;
-    border-radius:5px;
 }
 
+.execom{
+    background-color: rgb(117, 96, 96);
+    padding: 4% 10% 10% 10%;
+    
+}
 
+.heading-exe {
+    font-family: 'Advent Pro 600', serif;
+    letter-spacing: 2px;
+    font-size: 165%;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 2%;
+}
+
+.heading-exe::after{
+    content: '';
+    height: 3px;
+    width: 80px;
+    background: #312827c4;
+    position: absolute;
+    left: calc(45% - 38%);
+    bottom: 12px;
+}
+
+.title{
+    padding-top: 20px;
+}
+
+.img-size{
+    width: 45%;
+}
 .reach{
     background: url('img/adventure-beach-compass-691637.jpg');
     background-size: cover;
@@ -325,6 +459,8 @@ footer{
 }
 
 */
+
+
 
 /*
 #trapezoid-right {
