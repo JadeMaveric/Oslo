@@ -3,6 +3,29 @@
     padding: 0%;
     
 }
+body {
+	padding-top: 2%;
+} /* NAV - Might not be required in Main Page */
+
+#mainNavbar {
+	font-family: 'Oswald', sans-serif;
+} /* NAV - font */
+
+#mainNavbar.scrolled {
+	transition: background 922ms;
+} /* NAV - transition*/
+
+.navbar-nav a:hover {
+	font-weight: 600;
+} /* NAV - hover effect when not scrolled*/
+
+.navbar-nav .navbar_link:hover {
+	/* color: white; */
+	font-weight: 600;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+} /* NAV - on hover properties*/
+
+
 
 .page-container{ /* possible fix for background-attachment: fixed; */
     -ms-transform: translate3d(0, 0, 0);
@@ -32,11 +55,12 @@
     }
 
 .jumbotron {
-    height: 86vh;
+    height: 100vh;
     border-radius: 0%;
     z-index: 50;
     background-size: cover;
-    background: url('/img/ieee-kite-icon.png');
+    background: url('img/ieee-right-hand-logo2_transparent_opacity90.png');
+    /*background: url('/img/ieee-kite-icon.png');*/
     background-position: center;
     background-repeat: no-repeat; 
     background-attachment: fixed;
@@ -46,6 +70,7 @@
 
 #typed {
     font-family: 'Old Standard TT', serif;
+    color: #000000;
     font-size: 250%;
 }
 
@@ -84,6 +109,7 @@
 img {
     padding: 0;
     margin: 0;
+    /* color: #063352;*/
 }
 
 .nav{
@@ -262,7 +288,7 @@ img {
     font-family: 'Nanum Myeongjo', serif;
     font-size: 135%;
     font-weight: 400;
-    color: #060e18;
+    color: #000000;
     text-transform: uppercase;
     text-decoration: none;
     border: 2px solid #060e18;
@@ -274,8 +300,10 @@ img {
 
 .butn:hover {
     background: #CBDFD6;
-    border: 1px solid #CBDFD6;
+    border: 2px solid #CBDFD6;
     cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 9px;
     color: #000;
     right:2%;
     border: 1px solid;
